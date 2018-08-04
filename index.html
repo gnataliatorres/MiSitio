@@ -1,0 +1,111 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Mi sitio web</title>
+		<link href="css/estilo.css" rel="stylesheet" >
+		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+	</head>
+	<body>
+		<div class="portada">
+		<header id="header" class="header contenedor">
+			<figure class="logo">
+				<img src="imagenes/logo.png" alt="Logo Natalia">
+			</figure>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#skills">Skill</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="portada" >
+			<div class="contenedor">
+			<h1 class="titulo">Natalia Torres</h1>
+			<h2 class="titulo-a">Desarrollo de aplicaciones</h2>
+			<button class="button">Bibliografia</button>
+			</div>
+		</section>
+		</div>
+		<section id="skills" class="skills contenedor">
+			<h2>Mis Skills</h2>
+			<article class="skill" >
+				<img class="right" src= "imagenes/java.png"  width="250" alt="Java">
+				<div class="contenedor-skill-a">
+				<h3 class="titulo-b">Desarrollo con Java</h3>
+				<ol>
+					<li>JPA</li>
+					<li>JavaFX</li>
+					<li>JAX-WS</li>
+					<li>JAX-RS</li>
+				</ol>
+				</div>
+			</article>
+			<article class="skill" >
+				<img class="left" src= "imagenes/net.png" width="250" alt=".NET">
+				<div class="contenedor-skill-b">
+				<h3 class="titulo-b">Desarrollo con .NET</h3>
+				<ol>
+					<li>EntityFramework</li>
+					<li>LINQ</li>
+					<li>WPF</li>
+					<li>WCF</li>
+					<li>MVC</li>
+				</ol>
+				</div>
+			</article>
+		</section>
+		<footer id="footer" class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src="imagenes/logo.png" alt="logo" width="200">
+					<a href="tel:+50247705109">
+					<strong>Telefono</strong>
+					<span>+50247705109</span>
+					</a>
+					<a href="mailto:gnatalia.torres@gmail.com">
+					<strong>Email</strong>
+					<span>gnatalia.torres@gmail.com</span>
+					</a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<div >
+							<label for="nombre">Nombre:</label>
+							<input type="text" id="nombre" name="nombre" required></input>
+							<label for ="email">Email:</label>
+							<input type="email" id="email" name="email" required></input>
+						</div>
+						<div>
+							<label for ="junior">
+							<input type="radio" id="junior" name="perfil"></input> Junior
+							</label>
+							<label for="senior">
+								<input type="radio" id="senior" name="perfil"></input> Senior
+							</label>
+						</div>
+						<div class="intereses">
+						<label for="c#">
+							<input type="checkbox" id="c#" name="intereses" value="C#"></input>C#
+						</label>
+						<label for="vb">
+							<input type="checkbox" id="vb" name="intereses" value="vb"></input>Visual Basic
+						</label>
+						<label for="java">
+							<input type="checkbox" id="java" name="intereses" value="java"></input>Java
+						</label>
+						<label for="slq">
+							<input type="checkbox" id="c#" name="intereses" value="sql"></input>Sql
+						</label>
+						</div>
+					</div>
+					<div class="col2">
+						<label for="">Comentario:</label>
+						<textarea name="comentario" id ="comentario" cols="30" rows="10"></textarea>
+						<input type="submit" value="Enviar" class="button"></input>
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
