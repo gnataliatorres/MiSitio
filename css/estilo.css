@@ -40,6 +40,10 @@ body{
 	background: #fd324c;
 	
 }
+.button a{
+	color:white;
+	text-decoration: none;
+}
 .logo{
 	display: inline-block;
 		
